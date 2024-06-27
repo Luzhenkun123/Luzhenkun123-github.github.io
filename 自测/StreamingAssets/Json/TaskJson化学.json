@@ -1,0 +1,2915 @@
+{
+  "TaskList": [
+    {
+      "Task": "水的沸腾实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "取出试管，将少量水倒入试管中，然后将试管口向上倾斜固定在铁架台上；",
+          "AudioClip": "水的沸腾实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "使用火柴点燃酒精灯，对试管进行预热，然后将酒精灯固定在试管底部加热至水沸腾；",
+          "AudioClip": "水的沸腾实验第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "使用镊子夹住玻璃片靠近试管口，观察玻璃片；",
+          "AudioClip": "水的沸腾实验第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "待玻璃片上有水滴下来后，把玻璃瓶移出试管口，使玻璃片自然冷却，观察玻璃片，并填写实验报告；",
+          "AudioClip": "水的沸腾实验第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "水的沸腾实验第5步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：固定试管",
+          "AudioClip": "水的沸腾实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0
+          ]
+        },
+        {
+          "hint": "步骤二：点燃酒精灯将水煮沸",
+          "AudioClip": "水的沸腾实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            1
+          ]
+        },
+        {
+          "hint": "步骤三：观察玻璃片",
+          "AudioClip": "水的沸腾实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            2,
+            3
+          ]
+        },
+        {
+          "hint": "步骤四：整理实验器材",
+          "AudioClip": "水的沸腾实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            4
+          ]
+        }
+      ],
+      "goal": "1.通过水沸腾实验来发现物理变化；",
+      "theory": "1. 液态的水经过沸腾变成水蒸气，冷却后又变成液态的水，没有新的物质生成，属于物理变化。",
+      "equipment": "铁架台（1），试管（1），玻璃片（1），火柴（1），酒精灯（1），烧杯（1），镊子（1），废弃物回收品瓶（1），纸巾若干",
+      "OpeningSound": "水的沸腾实验OpenSound"
+    },
+    {
+      "Task": "胆矾的研碎实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "准备好研钵，使用药匙，从瓶中取少量胆矾放在研钵内；",
+          "AudioClip": "胆矾的研碎实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "观察胆矾的状态、颜色；",
+          "AudioClip": "胆矾的研碎实验第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "用研杵把胆矾研碎，观察胆矾在研碎过程中发生的变化；",
+          "AudioClip": "胆矾的研碎实验第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "将研碎的胆矾倒在玻璃皿中，观察胆矾的变化；",
+          "AudioClip": "胆矾的研碎实验第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "对比研磨前和研磨后的胆矾，并填写实验报告；",
+          "AudioClip": "胆矾的研碎实验第5步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "胆矾的研碎实验第6步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一 ：观察未研碎胆矾 ",
+          "AudioClip": "胆矾的研碎实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1
+          ]
+        },
+        {
+          "hint": "步骤二：观察研碎的胆矾",
+          "AudioClip": "胆矾的研碎实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "hint": "步骤三：整理实验器材",
+          "AudioClip": "胆矾的研碎实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            5
+          ]
+        }
+      ],
+      "goal": "通过研碎胆矾(硫酸铜晶体)来认知物理变化；",
+      "theory": "颗粒状的胆矾经过研磨后变成粉末状的胆矾，虽然胆矾发生了形态的变化，但并没有生成其他物质，属于物理变化。",
+      "equipment": "实验用具：药匙（1）、研钵（1）、玻璃皿（1）\n实验材料：胆矾",
+      "OpeningSound": "胆矾的研碎实验OpenSound"
+    },
+    {
+      "Task": "石灰石与盐酸反应现象",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "将澄清石灰水沿烧杯壁倒入烧杯中，将烧杯放在木块上；",
+          "AudioClip": "石灰石与盐酸反应现象第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "取少量大理石放入试管中，将试管竖向固定在铁架台上；",
+          "AudioClip": "石灰石与盐酸反应现象第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "将试管和烧杯连接到事先检验过的气密性良好的装置上；",
+          "AudioClip": "石灰石与盐酸反应现象第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "将稀盐酸沿试管内壁倒入试管中，压紧单孔橡胶塞；",
+          "AudioClip": "石灰石与盐酸反应现象第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "观察试管中大理石和稀盐酸的反应,并填写实验报告；",
+          "AudioClip": "石灰石与盐酸反应现象第5步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "石灰石与盐酸反应现象第6步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤四"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤五"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤六"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：连接装置",
+          "AudioClip": "石灰石与盐酸反应现象大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "hint": "步骤二：倒入稀盐酸",
+          "AudioClip": "石灰石与盐酸反应现象大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            3
+          ]
+        },
+        {
+          "hint": "步骤三：观察实验现象",
+          "AudioClip": "石灰石与盐酸反应现象大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            4
+          ]
+        },
+        {
+          "hint": "步骤四：整理实验器材",
+          "AudioClip": "石灰石与盐酸反应现象大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            5
+          ]
+        }
+      ],
+      "goal": "通过大理石即石灰石与稀盐酸的反应认识化学变化",
+      "theory": "大理石和稀盐酸反应时大理石逐渐溶解，产生大量气泡，烧杯中的澄清石灰水变浑浊，产生新物质，属于化学变化",
+      "equipment": "镊子、试管，试管架，铁架台，单孔橡胶塞，胶皮管，玻璃导管，烧，木块、大理石、稀盐酸、澄清石灰水",
+      "OpeningSound": "石灰石与盐酸反应现象OpenSound"
+    },
+    {
+      "Task": "品红在水中扩散实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "请将蒸馏水倒入空烧杯中;",
+          "AudioClip": "品红在水中扩散实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "向盛有水的烧杯中加入少量品红;",
+          "AudioClip": "品红在水中扩散实验第2步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "静置，慢慢观察烧杯中的品红的扩散现象，并填写实验报告；",
+          "AudioClip": "品红在水中扩散实验第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "品红在水中扩散实验第4步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：将品红与蒸馏水混合",
+          "AudioClip": "品红在水中扩散实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1
+          ]
+        },
+        {
+          "hint": "步骤二：观察品红扩散现象",
+          "AudioClip": "品红在水中扩散实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            2
+          ]
+        },
+        {
+          "hint": "步骤三：整理实验器材",
+          "AudioClip": "品红在水中扩散实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            3
+          ]
+        }
+      ],
+      "goal": "探究物质是由微观粒子构成的",
+      "theory": "物质是由看不见的微小粒子构成，构成物质的粒子总是在不断运动着。",
+      "equipment": "空烧杯，药匙，蒸馏水，品红",
+      "OpeningSound": "品红在水中扩散实验OpenSound"
+    },
+    {
+      "Task": "粉尘爆炸实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "用药匙取适量干燥的面粉放入小塑料瓶中;",
+          "AudioClip": "粉尘爆炸实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "连接装置，将装满面粉的小塑料瓶与大塑料瓶与大塑料罐连接，再将充气筒的气嘴塞进小塑料瓶中；",
+          "AudioClip": "粉尘爆炸实验第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "固定并点燃蜡烛，用装置套住蜡烛，然后用白纸板盖住装置的顶端；",
+          "AudioClip": "粉尘爆炸实验第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "保持安全距离，向装置中鼓入大量的空气，观察实验现象，并填写实验报告；",
+          "AudioClip": "粉尘爆炸实验第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "粉尘爆炸实验第5步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤四"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：实验装置的准备和连接",
+          "AudioClip": "粉尘爆炸实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0
+          ]
+        },
+        {
+          "hint": "步骤二：点燃蜡烛，封闭装置",
+          "AudioClip": "粉尘爆炸实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            1,
+            2
+          ]
+        },
+        {
+          "hint": "步骤三：鼓入空气，观察实验现象",
+          "AudioClip": "粉尘爆炸实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            3
+          ]
+        },
+        {
+          "hint": "步骤四：整理器材",
+          "AudioClip": "粉尘爆炸实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            4
+          ]
+        }
+      ],
+      "goal": "研究和评估粉尘所带来的爆炸危险性",
+      "theory": "干燥的面粉与空气混合后，由于被燃烧的蜡烛点燃，发生急速燃烧，因为在一密闭容器内燃烧，所以发生爆炸。",
+      "equipment": "药匙一把，小塑料瓶一个，大塑料罐，火柴一盒，蜡烛一根，白纸板一张，充气筒一个，废弃物回收桶一个,干燥的面粉",
+      "OpeningSound": "粉尘爆炸实验OpenSound"
+    },
+    {
+      "Task": "比较合金和纯金属的硬度实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "取出黄铜片和铜片；",
+          "AudioClip": "比较合金和纯金属的硬度实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "使用镊子分别夹起铜片和黄铜片观察光泽和颜色，并填写实验报告；",
+          "AudioClip": "比较合金和纯金属的硬度实验第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "将镊子放回烧杯中，并将铜片和黄铜片放回置物架；",
+          "AudioClip": "比较合金和纯金属的硬度实验第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "取出铝片和硬铝片；",
+          "AudioClip": "比较合金和纯金属的硬度实验第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "使用镊子分别夹起铝片和硬铝片观察光泽和颜色，并填写实验报告；",
+          "AudioClip": "比较合金和纯金属的硬度实验第5步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "将镊子放回烧杯中，并将铝片和硬铝片放回置物架；",
+          "AudioClip": "比较合金和纯金属的硬度实验第6步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "将铜片和黄铜片互相刻画，观察现象，并填写实验报告；",
+          "AudioClip": "比较合金和纯金属的硬度实验第7步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "将铝片和硬铝片互相刻画，观察现象，并填写实验报告；",
+          "AudioClip": "比较合金和纯金属的硬度实验第8步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验；",
+          "AudioClip": "比较合金和纯金属的硬度实验第9步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：比较两种铜片外观",
+          "AudioClip": "比较合金和纯金属的硬度实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "hint": "步骤二：比较两种铝片外观",
+          "AudioClip": "比较合金和纯金属的硬度实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "hint": "步骤三：观察两种铜片刻画现象",
+          "AudioClip": "比较合金和纯金属的硬度实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            6
+          ]
+        },
+        {
+          "hint": "步骤四：观察两种铝片刻画现象",
+          "AudioClip": "比较合金和纯金属的硬度实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            7
+          ]
+        },
+        {
+          "hint": "步骤五：整理器材",
+          "AudioClip": "比较合金和纯金属的硬度实验大步骤5",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            8
+          ]
+        }
+      ],
+      "goal": "比较合金和纯金属的硬度",
+      "theory": "合金一般比组成它们的纯金属的硬度大",
+      "equipment": "实验用具：烧杯(1)、镊子(1)、表面皿(4)\n实验材料：铜片、黄铜片、铝片、硬铝片",
+      "OpeningSound": "比较合金和纯金属的硬度实验OpenSound"
+    },
+    {
+      "Task": "蔗糖溶解实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "取出量筒，取出水溶液瓶；",
+          "AudioClip": "蔗糖溶解实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "1-1",
+          "Text": "拔掉瓶塞，倒入稍少于20ml的水于量筒中；",
+          "AudioClip": "蔗糖溶解实验第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "1-2",
+          "Text": "取出胶头滴管，补齐水量为20ml；",
+          "AudioClip": "蔗糖溶解实验第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "1-3",
+          "Text": "取出空烧杯，将量筒内所盛放的水倒入烧杯；",
+          "AudioClip": "蔗糖溶解实验第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "取出蔗糖瓶，用药匙取出蔗糖；",
+          "AudioClip": "蔗糖溶解实验第5步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2-1",
+          "Text": "将取出的蔗糖加入盛水烧杯中；",
+          "AudioClip": "蔗糖溶解实验第6步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "取出玻璃棒，使用玻璃棒搅拌加入蔗糖后的盛水烧杯，观察现象，并填写实验报告；",
+          "AudioClip": "蔗糖溶解实验第7步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "蔗糖溶解实验第8步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：取20ml水",
+          "AudioClip": "蔗糖溶解实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "hint": "步骤二：加入蔗糖",
+          "AudioClip": "蔗糖溶解实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            4,
+            5
+          ]
+        },
+        {
+          "hint": "步骤三：搅拌观察",
+          "AudioClip": "蔗糖溶解实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            6
+          ]
+        },
+        {
+          "hint": "步骤四：整理器材",
+          "AudioClip": "蔗糖溶解实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            7
+          ]
+        }
+      ],
+      "goal": "了解物质溶解的宏观现象和微观过程。",
+      "theory": "蔗糖表面的分子在水分子的作用下，逐步向水里扩散，最终蔗糖分子均一地分散在水分子中间，形成一种混合物——蔗糖溶液。",
+      "equipment": "实验用具：空烧杯(2)，药匙(1)，胶头滴管(1)，玻璃棒(1)，量筒25ml(1)，废液桶(1)，干净抹布（2）\n实验材料：蒸馏水，蔗糖",
+      "OpeningSound": "蔗糖溶解实验OpenSound"
+    },
+    {
+      "Task": "灭火器的原理实验",
+      "hint": [
+        {
+          "Name": "0_Step1",
+          "Text": "注意实验过程中需要戴手套！",
+          "AudioClip": "灭火器的原理实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "1_Step1-1",
+          "Text": "取出烧杯，取出碳酸钠溶液，取下碳酸钠溶液瓶盖，往烧杯倒入约30毫升的碳酸钠溶液；",
+          "AudioClip": "灭火器的原理实验第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2_Step1-2",
+          "Text": "取出发泡剂，往碳酸钠溶液加入发泡剂，并搅拌均匀；",
+          "AudioClip": "灭火器的原理实验第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3_Step1-3",
+          "Text": "将烧杯中溶液倒入吸滤瓶中备用；",
+          "AudioClip": "灭火器的原理实验第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4_Step2",
+          "Text": "把浓盐酸倒入绑有细绳的小试管中；",
+          "AudioClip": "灭火器的原理实验第5步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5_Step2-1",
+          "Text": "将小木条放入绑有细绳的小试管中；",
+          "AudioClip": "灭火器的原理实验第6步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6_Step2-2",
+          "Text": "将绑有细绳的小试管放入吸滤瓶中，并塞紧瓶塞；",
+          "AudioClip": "灭火器的原理实验第7步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7_Step3",
+          "Text": "使用火柴点燃纸团；",
+          "AudioClip": "灭火器的原理实验第8步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8_Step3-1",
+          "Text": "将吸滤瓶倒过来，玻璃管口对着燃烧的纸团，观察倒置后的现象；",
+          "AudioClip": "灭火器的原理实验第9步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9_Step4",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "灭火器的原理实验第10步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：混合碳酸钠和发泡剂",
+          "AudioClip": "灭火器的原理实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "hint": "步骤二：量取浓盐酸",
+          "AudioClip": "灭火器的原理实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "hint": "步骤三：混合试剂，观察现象",
+          "AudioClip": "灭火器的原理实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            7,
+            8
+          ]
+        },
+        {
+          "hint": "步骤四：整理实验器材",
+          "AudioClip": "灭火器的原理实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            9
+          ]
+        }
+      ],
+      "goal": "认识简易灭火器的装置和原理。",
+      "theory": "1. 浓盐酸和碳酸钠溶液反应能产生大量的二氧化碳气体，相关化学方程式如下：Na₂CO₃+2HCI＝2NaCl+H₂O+CO₂↑；\n2. 在强大的气压下，二氧化碳其他夹带着液体一并溢出，喷射在可燃物的表面以达到隔绝空气及降温的作用。",
+      "equipment": "实验用具：吸滤瓶(1)，玻璃导管(1)，胶皮管(1)，用绳子绑好的小试管(1)，玻璃棒(1)，烧杯(1)，橡胶手套（1），小木条（1），纸团(1)，火柴(1),干净抹布(1)，废物回收桶(1)，废液收集桶(1)。\n实验药品：碳酸钠溶液，发泡剂，浓盐酸。",
+      "OpeningSound": "灭火器的原理实验OpenSound"
+    },
+    {
+      "Task": "碘和高锰酸钾在汽油或水中的溶解实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "将装有碘粒的瓶子移到实验桌中央",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "将瓶塞取出倒放在桌面上",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "用药匙从瓶中取出1~2粒碘",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "取出试管，并将碘粒放至试管中",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "再取一支试管，同样加入1~2小粒碘",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第5步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "使用干净纸巾擦拭药匙",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第6步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "取出量筒，向量筒中倒入稍少于5毫升的水",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第7步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "取出胶头滴管，使用胶头滴管将量筒内的水补齐至5ml",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第8步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "将量筒内的水倒入装有碘粒的试管中，然后振荡试管，观察现象，并填写实验报告；",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第9步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "10",
+          "Text": "使用量筒，量取5毫升汽油，倒入装有碘粒的试管中，然后振荡试管，观察现象，并填写实验报告；",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第10步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "11",
+          "Text": "将装有高锰酸钾的瓶子移到实验桌中央",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第11步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "12",
+          "Text": "将瓶塞取出倒放在桌面上",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第12步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "13",
+          "Text": "用药匙从瓶中取出1-2粒高锰酸钾",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第13步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "14",
+          "Text": "取出试管，并将高锰酸钾放至试管中",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第14步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "15",
+          "Text": "再取一支试管，并将高锰酸钾放至试管中",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第15步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "16",
+          "Text": "使用量筒，量取5毫升水",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第16步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "17",
+          "Text": "将量筒内的水倒入装有高锰酸钾的试管中，然后振荡试管，观察现象，并填写实验报告；",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第17步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "18",
+          "Text": "使用量筒，量取5毫升汽油，倒入装有高锰酸钾的试管中，然后振荡试管，观察现象，并填写实验报告；",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第18步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "19",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验第19步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤四"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤五"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：在两支试管中加入碘",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "hint": "步骤二：观察碘在水和汽油中溶解现象",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "hint": "步骤三：在两支试管中加入高锰酸钾",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "hint": "步骤四：观察高锰酸钾在水和汽油中溶解现象",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "hint": "步骤五：整理器材",
+          "AudioClip": "碘和高锰酸钾在汽油或水中的溶解实验大步骤5",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            18
+          ]
+        }
+      ],
+      "goal": "知道物质的溶解性决定于溶质、溶剂的性质；",
+      "theory": "同一种物质在不同溶剂中的溶解能力是不同的，不同的物质在同一溶剂中的溶解能力也是不同的。",
+      "equipment": "实验用具：试管(4)、试管架(1)、药匙(1)、烧杯(1)、胶头滴管(2)、量筒(1)、废液缸(1)、废物桶(1)；\n实验材料：水、碘、汽油、高锰酸钾",
+      "OpeningSound": "碘和高锰酸钾在汽油或水中的溶解实验OpenSound"
+    },
+    {
+      "Task": "硝酸钾在水中的溶解实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "向量筒中倒入稍少于20ml的水；",
+          "AudioClip": "硝酸钾在水中的溶解实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "使用胶头滴管补齐水量为20ml；",
+          "AudioClip": "硝酸钾在水中的溶解实验第2步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "将量筒中的水倒入烧杯中；",
+          "AudioClip": "硝酸钾在水中的溶解实验第3步",
+          "Score": 30,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "取出5g硝酸钾，倒入烧杯中；",
+          "AudioClip": "硝酸钾在水中的溶解实验第4步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "使用玻璃棒搅拌烧杯中的硝酸钾，观察现象，并填写实验报告；",
+          "AudioClip": "硝酸钾在水中的溶解实验第5步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "填写实验报告；",
+          "AudioClip": "硝酸钾在水中的溶解实验第6步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "向烧杯中再次加入5g硝酸钾；",
+          "AudioClip": "硝酸钾在水中的溶解实验第7步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "使用玻璃棒搅拌烧杯中的硝酸钾，观察实验现象，并填写实验报告；",
+          "AudioClip": "硝酸钾在水中的溶解实验第8步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "填写实验报告；",
+          "AudioClip": "硝酸钾在水中的溶解实验第9步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "10",
+          "Text": "拿出三脚架，将石棉网垫在三脚架上；",
+          "AudioClip": "硝酸钾在水中的溶解实验第10步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "11",
+          "Text": "将烧杯放置在石棉网上；",
+          "AudioClip": "硝酸钾在水中的溶解实验第11步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "12",
+          "Text": "使用酒精灯加热烧杯；",
+          "AudioClip": "硝酸钾在水中的溶解实验第12步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "13",
+          "Text": "加热过程中，使用玻璃棒搅拌烧杯中的硝酸钾溶液，观察实验现象，并填写实验报告；",
+          "AudioClip": "硝酸钾在水中的溶解实验第13步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "14",
+          "Text": "填写实验报告；",
+          "AudioClip": "硝酸钾在水中的溶解实验第14步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "15",
+          "Text": "取出5g硝酸钾，倒入烧杯中；",
+          "AudioClip": "硝酸钾在水中的溶解实验第15步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "16",
+          "Text": "使用玻璃棒搅拌烧杯中的硝酸钾，观察实验现象，并填写实验报告；",
+          "AudioClip": "硝酸钾在水中的溶解实验第16步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "17",
+          "Text": "填写实验报告；",
+          "AudioClip": "硝酸钾在水中的溶解实验第17步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "18",
+          "Text": "移出并熄灭酒精灯；",
+          "AudioClip": "硝酸钾在水中的溶解实验第18步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "19",
+          "Text": "等待烧杯内溶液冷却一段时间，观察烧杯内溶液现象；",
+          "AudioClip": "硝酸钾在水中的溶解实验第19步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "20",
+          "Text": "观察实验现象，填写实验报告；",
+          "AudioClip": "硝酸钾在水中的溶解实验第20步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "21",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "硝酸钾在水中的溶解实验第21步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：搅拌水中硝酸钾，观察现象",
+          "AudioClip": "硝酸钾在水中的溶解实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "hint": "步骤二：再次加入硝酸钾，搅拌观察",
+          "AudioClip": "硝酸钾在水中的溶解实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "hint": "步骤三：加热搅拌，观察现象",
+          "AudioClip": "硝酸钾在水中的溶解实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "hint": "步骤四：再次加入硝酸钾，搅拌观察",
+          "AudioClip": "硝酸钾在水中的溶解实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "hint": "步骤五：冷却，观察现象",
+          "AudioClip": "硝酸钾在水中的溶解实验大步骤5",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "hint": "步骤六：整理器材",
+          "AudioClip": "硝酸钾在水中的溶解实验大步骤6",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            20
+          ]
+        }
+      ],
+      "goal": "通过探究硝酸钾在水中溶解的质量与溶剂和温度的关系，认识溶质的溶解是有限度的。",
+      "theory": "在一定温度下，在一定量的溶剂中溶质的溶解量是有一定限度的。",
+      "equipment": "烧杯(2)，量筒(1)，玻璃棒(1)，胶头滴管(1)，称量纸(3)，酒精灯(1)，火柴(1)，石棉网(1)，\n\n三脚架(1)，干净抹布(1)，废液收集桶(1)，废物收集桶(1)。实验材料：蒸馏水，硝酸钾。",
+      "OpeningSound": "硝酸钾在水中的溶解实验OpenSound"
+    },
+    {
+      "Task": "氯化钠在水中的溶解实验",
+      "hint": [
+        {
+          "Name": "0",
+          "Text": "向量筒中倒入稍少于20ml的水；",
+          "AudioClip": "氯化钠在水中的溶解实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "1",
+          "Text": "使用胶头滴管补齐水量为20ml；",
+          "AudioClip": "氯化钠在水中的溶解实验第2步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "将量筒中的水倒入烧杯中；",
+          "AudioClip": "氯化钠在水中的溶解实验第3步",
+          "Score": 30,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "取出5g氯化钠，倒入烧杯中；",
+          "AudioClip": "氯化钠在水中的溶解实验第4步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "使用玻璃棒搅拌烧杯中的氯化钠，观察现象；",
+          "AudioClip": "氯化钠在水中的溶解实验第5步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "记录观察到的实验现象，并填写实验报告；",
+          "AudioClip": "氯化钠在水中的溶解实验第6步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "向烧杯中再次加入5g氯化钠；",
+          "AudioClip": "氯化钠在水中的溶解实验第7步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "使用玻璃棒搅拌烧杯中的氯化钠，观察实验现象，并填写实验报告；",
+          "AudioClip": "氯化钠在水中的溶解实验第8步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "使用量筒和胶头滴管量取15ml水；",
+          "AudioClip": "氯化钠在水中的溶解实验第9步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "将量筒中的水倒入烧杯内；",
+          "AudioClip": "氯化钠在水中的溶解实验第10步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "10",
+          "Text": "使用玻璃棒搅拌烧杯中的氯化钠，观察实验现象，并填写实验报告；",
+          "AudioClip": "氯化钠在水中的溶解实验第11步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "11",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "氯化钠在水中的溶解实验第12步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：搅拌水中氯化钠，观察现象",
+          "AudioClip": "氯化钠在水中的溶解实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "hint": "步骤二：再次加入氯化钠，搅拌观察",
+          "AudioClip": "氯化钠在水中的溶解实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            6,
+            7
+          ]
+        },
+        {
+          "hint": "步骤三：加水搅拌，观察现象",
+          "AudioClip": "氯化钠在水中的溶解实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "hint": "步骤四：整理器材",
+          "AudioClip": "氯化钠在水中的溶解实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            11
+          ]
+        }
+      ],
+      "goal": "认识溶质的溶解是有限度的。",
+      "theory": "在一定温度下，在一定量的溶剂中溶质的溶解量是有一定限度的。",
+      "equipment": "实验用具：烧杯(2)，量筒(1)，玻璃棒(1)，胶头滴管(1)，称量纸(2)，干净抹布(1)，废液收集桶(1)，废物收集桶(1)。\n实验材料：蒸馏水，氯化钠。",
+      "OpeningSound": "氯化钠在水中的溶解实验OpenSound"
+    },
+    {
+      "Task": "物质的导电性实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "点击电源，组装通电装置；",
+          "AudioClip": "物质的导电性实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "从置物架上取下盐酸溶液，将电极放入溶液中；",
+          "AudioClip": "物质的导电性实验第2步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "打开电源开关，观察小灯泡是否亮起；",
+          "AudioClip": "物质的导电性实验第3步",
+          "Score": 30,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "填写实验报告；",
+          "AudioClip": "物质的导电性实验第4步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "关闭电源开关，使用洗瓶和滤纸将电极冲洗擦拭干净；",
+          "AudioClip": "物质的导电性实验第5步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "从置物架上取下硫酸溶液，将电极放入溶液中；",
+          "AudioClip": "物质的导电性实验第6步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "打开电源开关，观察小灯泡是否亮起；",
+          "AudioClip": "物质的导电性实验第7步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "填写实验报告；",
+          "AudioClip": "物质的导电性实验第8步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "关闭电源开关，使用洗瓶和滤纸将电极冲洗擦拭干净；",
+          "AudioClip": "物质的导电性实验第9步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "10",
+          "Text": "从置物架上取下氢氧化钠溶液，将电极放入溶液中；",
+          "AudioClip": "物质的导电性实验第10步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "11",
+          "Text": "打开电源开关，观察小灯泡是否亮起；",
+          "AudioClip": "物质的导电性实验第11步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "12",
+          "Text": "填写实验报告；",
+          "AudioClip": "物质的导电性实验第12步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "13",
+          "Text": "关闭电源开关，使用洗瓶和滤纸将电极冲洗擦拭干净；",
+          "AudioClip": "物质的导电性实验第13步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "14",
+          "Text": "从置物架上取下氢氧化钙溶液，将电极放入溶液中；",
+          "AudioClip": "物质的导电性实验第14步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "15",
+          "Text": "打开电源开关，观察小灯泡是否亮起；",
+          "AudioClip": "物质的导电性实验第15步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "16",
+          "Text": "填写实验报告；",
+          "AudioClip": "物质的导电性实验第16步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "17",
+          "Text": "关闭电源开关，使用洗瓶和滤纸将电极冲洗擦拭干净；",
+          "AudioClip": "物质的导电性实验第17步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "18",
+          "Text": "从置物架上取下蒸馏水，将电极放入蒸馏水中；",
+          "AudioClip": "物质的导电性实验第18步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "19",
+          "Text": "打开电源开关，观察小灯泡是否亮起；",
+          "AudioClip": "物质的导电性实验第19步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "20",
+          "Text": "填写实验报告；",
+          "AudioClip": "物质的导电性实验第20步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "21",
+          "Text": "关闭电源开关，使用洗瓶和滤纸将电极冲洗擦拭干净；",
+          "AudioClip": "物质的导电性实验第21步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "22",
+          "Text": "从置物架上取下乙醇，将电极放入乙醇中；",
+          "AudioClip": "物质的导电性实验第22步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "23",
+          "Text": "打开电源开关，观察小灯泡是否亮起；",
+          "AudioClip": "物质的导电性实验第23步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "24",
+          "Text": "填写实验报告；",
+          "AudioClip": "物质的导电性实验第24步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "25",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "物质的导电性实验第25步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：观察盐酸导电性",
+          "AudioClip": "物质的导电性实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "hint": "步骤二：观察硫酸导电性",
+          "AudioClip": "物质的导电性实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "hint": "步骤三：观察氢氧化钠导电性",
+          "AudioClip": "物质的导电性实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "hint": "步骤四：观察氢氧化钙导电性",
+          "AudioClip": "物质的导电性实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "hint": "步骤五：观察蒸馏水导电性",
+          "AudioClip": "物质的导电性实验大步骤5",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "hint": "步骤六：观察乙醇导电性",
+          "AudioClip": "物质的导电性实验大步骤6",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "hint": "步骤七：整理器材",
+          "AudioClip": "物质的导电性实验大步骤7",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            24
+          ]
+        }
+      ],
+      "goal": "探究溶液的导电性。",
+      "theory": "盐酸、硫酸、氢氧化钠溶液、氢氧化钙溶液含有自由移动的带电粒子，在通电的条件下会导电；蒸馏水和乙醇不含自由移动的\n\n带电粒子，在通电的条件下不会导电。",
+      "equipment": "实验用具：烧杯(6)，滤纸(1)，小灯泡(1)，学生电源(1)，导线(3)，电极(2)，洗瓶(1)，废液收集桶(1)，废物收集桶(1)；\n\n实验材料：盐酸，硫酸，氢氧化钠，氢氧化钙，乙醇，蒸馏水。",
+      "OpeningSound": "物质的导电性实验OpenSound"
+    },
+    {
+      "Task": "配制三种浓稀不同的硫酸铜溶液",
+      "hint": [
+        {
+          "Name": "0",
+          "Text": "取出一张称量纸，将称量纸放置于电子秤上，点击去皮按钮完成电子秤去皮操作；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "1",
+          "Text": "取出硫酸铜，拔下瓶塞，取出药匙，使用药匙从硫酸铜瓶中取出硫酸铜；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第2步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "将药匙中的硫酸铜倒入电子秤称量纸上，使用电子秤称取0.1g硫酸铜；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第3步",
+          "Score": 30,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "将称量好的0.1g硫酸铜放置于桌面；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第4步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "取出一张称量纸，将称量纸放置于电子秤上；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第5步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "使用药匙从硫酸铜瓶中取出硫酸铜",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第6步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "将药匙中的硫酸铜倒入电子秤称量纸上，使用电子秤称取0.5g硫酸铜；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第7步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "将称量好的0.5g硫酸铜放置于桌面；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第8步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "取出一张称量纸，将称量纸放置于电子秤上；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第9步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "使用药匙从硫酸铜瓶中取出硫酸铜；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第10步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "10",
+          "Text": "将药匙中的硫酸铜倒入电子秤称量纸上，使用电子秤称取2g硫酸铜；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第11步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "11",
+          "Text": "将称量好的2g硫酸铜放置于桌面；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第12步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "12",
+          "Text": "取出一个装有20ml水的烧杯，将0.1g硫酸铜加入其中；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第13步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "13",
+          "Text": "取出玻璃棒，使用玻璃棒搅拌烧杯中的硫酸铜，观察溶液变化；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第14步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "14",
+          "Text": "冲洗擦拭搅拌后的玻璃棒；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第15步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "15",
+          "Text": "取出第二个装有20ml水的烧杯，将0.5g硫酸铜加入其中；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第16步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "16",
+          "Text": "使用玻璃棒搅拌烧杯中的硫酸铜，观察溶液变化；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第17步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "17",
+          "Text": "冲洗擦拭搅拌后的玻璃棒；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第18步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "18",
+          "Text": "取出第三个装有20ml水的烧杯，将2g硫酸铜加入其中；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第19步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "19",
+          "Text": "使用玻璃棒搅拌烧杯中的硫酸铜，观察溶液变化；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第20步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "20",
+          "Text": "观察并对比三个烧杯中的溶液颜色，填写实验报告；",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第21步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "21",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液第22步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：称取硫酸铜",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "hint": "步骤二：溶解硫酸铜",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "hint": "步骤三：对比溶液颜色",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            20
+          ]
+        },
+        {
+          "hint": "步骤四：整理实验器材",
+          "AudioClip": "配制三种浓稀不同的硫酸铜溶液大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            21
+          ]
+        }
+      ],
+      "goal": "根据有色溶液的颜色深浅粗略比较溶液的浓稀。",
+      "theory": "对于有色溶液来说，根据颜色深浅可以判断溶液是浓还是稀，颜色越深，溶液越浓。",
+      "equipment": "实验用具：烧杯(4)，药匙(1)，玻璃棒(1)，称量纸(3)，电子秤(1)，干净抹布(1)，废液收集桶(1)，废物收集桶(1)。\n实验材料：蒸馏水，硫酸铜。",
+      "OpeningSound": "配制三种浓稀不同的硫酸铜溶液OpenSound"
+    },
+    {
+      "Task": "探究分子的运动现象",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "取出装有20ml蒸馏水的烧杯，取出酚酞溶液，向盛有20ml蒸馏水的烧杯A中加入5~6滴酚酞溶液，",
+          "AudioClip": "探究分子的运动现象第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "拿起玻璃棒，把烧杯内的液体搅拌均匀，观察溶液的颜色，并填写实验报告；",
+          "AudioClip": "探究分子的运动现象第2步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "取出试管，把烧杯中的一部分溶液倒入试管中，",
+          "AudioClip": "探究分子的运动现象第3步",
+          "Score": 30,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "取出浓氨水，取下盖子，拿起胶头滴管，吸取浓氨水，",
+          "AudioClip": "探究分子的运动现象第4步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "向试管中慢慢滴加浓氨水，观察溶液颜色有什么变化，并填写实验报告；",
+          "AudioClip": "探究分子的运动现象第5步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "移动胶头滴管放入烧杯中，移动试管放到试管架中；",
+          "AudioClip": "探究分子的运动现象第6步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "另取一个烧杯B，倒入5ml浓氨水，放到烧杯A附近，",
+          "AudioClip": "探究分子的运动现象第7步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "取出大烧杯，罩住A、B两个小烧杯，过一段时间后，观察有什么现象发生，并填写实验报告",
+          "AudioClip": "探究分子的运动现象第8步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "探究分子的运动现象第9步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：观察酚酞和蒸馏水混合时颜色变化",
+          "AudioClip": "探究分子的运动现象大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1
+          ]
+        },
+        {
+          "hint": "步骤二：观察酚酞与浓氨水混合时颜色变化",
+          "AudioClip": "探究分子的运动现象大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "hint": "步骤三：观察浓氨水分子不断运动的现象",
+          "AudioClip": "探究分子的运动现象大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            6,
+            7
+          ]
+        },
+        {
+          "hint": "步骤四：整理实验器材",
+          "AudioClip": "探究分子的运动现象大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            8
+          ]
+        }
+      ],
+      "goal": "探究分子运动现象。",
+      "theory": "浓氨水具有挥发性；氨分子是在不断运动着的。",
+      "equipment": "实验用具：试管（1），胶头滴管（1），500ml烧杯（1），250ml烧杯（1），20ml烧杯（2），玻璃棒（1）\n\n实验材料：浓氨水，酚酞溶液，蒸馏水",
+      "OpeningSound": "探究分子的运动现象OpenSound"
+    },
+    {
+      "Task": "物质溶解时的吸放热现象",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "取下蒸馏水瓶塞，移动蒸馏水瓶，在1、2、3号烧杯中分别倒入100ml蒸馏水；",
+          "AudioClip": "物质溶解时的吸放热现象第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "取出温度计，使用温度计测量三个烧杯中蒸馏水的温度，并记录下来，填写实验报告；",
+          "AudioClip": "物质溶解时的吸放热现象第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "将温度计从烧杯中的蒸馏水内取出，放回置物架烧杯内；",
+          "AudioClip": "物质溶解时的吸放热现象第3步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "取出5g氯化钠，将氯化钠加入到1号烧杯中；",
+          "AudioClip": "物质溶解时的吸放热现象第4步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "取出玻璃棒，使用玻璃棒搅拌溶解1号烧杯中的氯化钠；",
+          "AudioClip": "物质溶解时的吸放热现象第5步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "冲洗擦拭使用过后的玻璃棒；",
+          "AudioClip": "物质溶解时的吸放热现象第6步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "使用温度计测量1号烧杯中溶液的温度，并记录下来，填写实验报告；",
+          "AudioClip": "物质溶解时的吸放热现象第7步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "清洗擦拭使用过后的温度计；",
+          "AudioClip": "物质溶解时的吸放热现象第8步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "取出5g硝酸铵，将硝酸铵加入到2号烧杯中；",
+          "AudioClip": "物质溶解时的吸放热现象第9步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "10",
+          "Text": "使用干净的玻璃棒搅拌溶解2号烧杯中的硝酸铵；",
+          "AudioClip": "物质溶解时的吸放热现象第10步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "11",
+          "Text": "冲洗擦拭使用过后的玻璃棒后放回原位；",
+          "AudioClip": "物质溶解时的吸放热现象第11步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "12",
+          "Text": "使用干净的温度计测量2号烧杯中溶液的温度，并记录下来，填写实验报告；",
+          "AudioClip": "物质溶解时的吸放热现象第12步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "13",
+          "Text": "清洗擦拭使用过后的温度计后放回原位；",
+          "AudioClip": "物质溶解时的吸放热现象第13步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "14",
+          "Text": "取出5g氢氧化钠，将氢氧化钠加入到3号烧杯中；",
+          "AudioClip": "物质溶解时的吸放热现象第14步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "15",
+          "Text": "清洗擦拭使用过后的表面皿后放回原位；",
+          "AudioClip": "物质溶解时的吸放热现象第15步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "16",
+          "Text": "使用干净的玻璃棒搅拌溶解3号烧杯中的氢氧化钠；",
+          "AudioClip": "物质溶解时的吸放热现象第16步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "17",
+          "Text": "冲洗擦拭使用过后的玻璃棒后放回原位；",
+          "AudioClip": "物质溶解时的吸放热现象第17步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "18",
+          "Text": "使用干净的温度计测量3号烧杯中溶液的温度，并记录下来，填写实验报告；",
+          "AudioClip": "物质溶解时的吸放热现象第18步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "19",
+          "Text": "清洗擦拭使用过后的温度计后放回原位；",
+          "AudioClip": "物质溶解时的吸放热现象第19步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "20",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "物质溶解时的吸放热现象第20步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：测量水的温度",
+          "AudioClip": "物质溶解时的吸放热现象大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "hint": "步骤二：测量氯化钠溶解温度",
+          "AudioClip": "物质溶解时的吸放热现象大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "hint": "步骤三：测量硝酸铵溶解温度",
+          "AudioClip": "物质溶解时的吸放热现象大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "hint": "步骤四：测量氢氧化钠溶解温度",
+          "AudioClip": "物质溶解时的吸放热现象大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "hint": "步骤五：整理器材",
+          "AudioClip": "物质溶解时的吸放热现象大步骤5",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            19
+          ]
+        }
+      ],
+      "goal": "了解一些物质溶解时的热效应，即能量变化；",
+      "theory": "物质在溶解过程中，有些物质会出现吸热现象，有些物质会出现放热现象，有些物质无明显变化。",
+      "equipment": "实验用具：烧杯(4)，表面皿(1)，称量纸，药匙(1)，玻璃棒(1)，温度计(1)，电子秤(1)，干净纸巾，废液收集桶(1)、废物收集桶(1)。\n实验材料：氢氧化钠，硝酸铵，氯化钠，蒸馏水。",
+      "OpeningSound": "物质溶解时的吸放热现象OpenSound"
+    },
+    {
+      "Task": "复分解实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "取出氢氧化钠溶液，在试管架上取下一支试管；",
+          "AudioClip": "复分解实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "向试管中倒入适量的氢氧化钠溶液；",
+          "AudioClip": "复分解实验第2步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "取出硫酸铜溶液，使用胶头滴管吸取硫酸铜溶液；",
+          "AudioClip": "复分解实验第3步",
+          "Score": 30,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "将胶头滴管吸取的硫酸铜溶液滴入氢氧化钠试管中，观察试管中现象，并填写实验报告；",
+          "AudioClip": "复分解实验第4步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "填写实验报告；",
+          "AudioClip": "复分解实验第5步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "取出氯化钡溶液，在试管架上取下另一支试管；",
+          "AudioClip": "复分解实验第6步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "向试管中倒入适量的氯化钡溶液；",
+          "AudioClip": "复分解实验第7步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "使用胶头滴管吸取硫酸铜溶液；",
+          "AudioClip": "复分解实验第8步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "将胶头滴管吸取的硫酸铜溶液滴入氯化钡试管中，观察试管中现象；",
+          "AudioClip": "复分解实验第9步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "10",
+          "Text": "填写实验报告；",
+          "AudioClip": "复分解实验第10步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "11",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "复分解实验第11步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：氢氧化钠加硫酸铜，观察现象",
+          "AudioClip": "复分解实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "hint": "步骤二：氯化钡加硫酸铜，观察现象",
+          "AudioClip": "复分解实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "hint": "步骤三：整理器材",
+          "AudioClip": "复分解实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            10
+          ]
+        }
+      ],
+      "goal": "掌握复分解反应的原理和现象。",
+      "theory": "硫酸铜能与氢氧化钠和氯化钡发生复分解反应。",
+      "equipment": "实验用具：试管(2)，烧杯(1)，胶头滴管(1)，废液收集桶(1)。\n\n实验材料：氢氧化钠，氯化钡，硫酸铜。",
+      "OpeningSound": "复分解实验OpenSound"
+    },
+    {
+      "Task": "乳浊液的形成和乳化现象",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "取出水溶液瓶，取出量筒；",
+          "AudioClip": "乳浊液的形成和乳化现象第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "向量筒中倒入稍少于5ml的蒸馏水；",
+          "AudioClip": "乳浊液的形成和乳化现象第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "取出胶头滴管，使用胶头滴管吸取蒸馏水瓶中的水；",
+          "AudioClip": "乳浊液的形成和乳化现象第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "使用胶头滴管将量筒中的水补齐至5ml；",
+          "AudioClip": "乳浊液的形成和乳化现象第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "取出一根试管，将量筒中的水倒入试管中；",
+          "AudioClip": "乳浊液的形成和乳化现象第5步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "再次使用量筒量取5ml水，取出第二根试管，将量筒中的水倒入到第二根试管中；",
+          "AudioClip": "乳浊液的形成和乳化现象第6步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "取出植物油瓶，使用植物油瓶上的胶头滴管向两支试管中分别滴入几滴植物油；",
+          "AudioClip": "乳浊液的形成和乳化现象第7步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "观察试管中的液面是否分层，并填写实验报告；",
+          "AudioClip": "乳浊液的形成和乳化现象第8步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "将胶头滴管放回植物油瓶中；",
+          "AudioClip": "乳浊液的形成和乳化现象第9步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "10",
+          "Text": "取出洗涤剂瓶，使用瓶上的胶头滴管向第一支试管中滴入4到5滴洗涤剂，观察现象；",
+          "AudioClip": "乳浊液的形成和乳化现象第10步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "11",
+          "Text": "观察试管中的液面是否分层；",
+          "AudioClip": "乳浊液的形成和乳化现象第11步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "12",
+          "Text": "将胶头滴管放回洗涤剂瓶中；",
+          "AudioClip": "乳浊液的形成和乳化现象第12步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "13",
+          "Text": "取出橡胶塞，使用橡胶塞将两支试管分别塞紧；",
+          "AudioClip": "乳浊液的形成和乳化现象第13步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "14",
+          "Text": "点击第一支试管，对试管进行振荡操作；",
+          "AudioClip": "乳浊液的形成和乳化现象第14步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "15",
+          "Text": "点击第二支试管，对试管进行振荡操作；",
+          "AudioClip": "乳浊液的形成和乳化现象第15步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "16",
+          "Text": "两支试管中的液体对比，并填写实验报告；",
+          "AudioClip": "乳浊液的形成和乳化现象第16步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "17",
+          "Text": "将两支试管静置一段时间，观察试管内液体变化，并填写实验报告；",
+          "AudioClip": "乳浊液的形成和乳化现象第17步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "18",
+          "Text": "拔掉第一支试管的橡胶塞，将试管内液体倒入废液桶中；",
+          "AudioClip": "乳浊液的形成和乳化现象第18步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "19",
+          "Text": "将试管拿到水龙头下清洗，清洗后放回试管架；",
+          "AudioClip": "乳浊液的形成和乳化现象第19步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "20",
+          "Text": "拔掉第二支试管的橡胶塞，将试管内液体倒入废液桶中；",
+          "AudioClip": "乳浊液的形成和乳化现象第20步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "21",
+          "Text": "将试管拿到水龙头下清洗，清洗后放回试管架；",
+          "AudioClip": "乳浊液的形成和乳化现象第21步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "22",
+          "Text": "观察清洗后的两支试管内壁，并填写实验报告；",
+          "AudioClip": "乳浊液的形成和乳化现象第22步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "23",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "乳浊液的形成和乳化现象第23步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：在水中加入植物油，观察现象",
+          "AudioClip": "乳浊液的形成和乳化现象大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "hint": "步骤二：振荡后观察现象",
+          "AudioClip": "乳浊液的形成和乳化现象大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "hint": "步骤三：静置后观察现象",
+          "AudioClip": "乳浊液的形成和乳化现象大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            17
+          ]
+        },
+        {
+          "hint": "步骤四：洗涤试管，观察试管内壁",
+          "AudioClip": "乳浊液的形成和乳化现象大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "hint": "步骤五：整理器材",
+          "AudioClip": "乳浊液的形成和乳化现象大步骤5",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            22
+          ]
+        }
+      ],
+      "goal": "初步了解乳浊液的形成与乳化现象。",
+      "theory": "洗涤剂能将植物油分散成无数细小的液滴而不聚成大的油珠，从而使油和水不再分层，所形成的乳浊液稳定性增强，这种现象称为乳化。",
+      "equipment": "实验用具：空烧杯(1)，试管架(1)，量筒（1），试管(2)，胶头滴管(1)，橡胶塞(2)，废液处理桶(1)。\n实验材料：植物油，洗涤剂，蒸馏水。",
+      "OpeningSound": "乳浊液的形成和乳化现象OpenSound"
+    },
+    {
+      "Task": "浓硫酸的腐蚀性",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "浓硫酸具有强烈腐蚀性，实验过程需戴好手套；",
+          "AudioClip": "浓硫酸的腐蚀性第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "取出一块玻璃片放在桌面，将纸片放在玻璃片上；",
+          "AudioClip": "浓硫酸的腐蚀性第2步",
+          "Score": 20,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "再次取出一块玻璃片放在桌面，将小木棍放在玻璃片上；",
+          "AudioClip": "浓硫酸的腐蚀性第3步",
+          "Score": 30,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "取出最后一块玻璃片放在桌面，将布片放在玻璃片上；",
+          "AudioClip": "浓硫酸的腐蚀性第4步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "取出烧杯，取出浓硫酸，拔掉瓶塞，在烧杯中倒入适量的浓硫酸；",
+          "AudioClip": "浓硫酸的腐蚀性第5步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "取出玻璃棒，使用玻璃棒蘸取烧杯中的浓硫酸在纸片上涂画；",
+          "AudioClip": "浓硫酸的腐蚀性第6步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "7",
+          "Text": "观察纸片的变化，并填写实验报告；",
+          "AudioClip": "浓硫酸的腐蚀性第7步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "8",
+          "Text": "使用小木棍蘸取烧杯中的浓硫酸；",
+          "AudioClip": "浓硫酸的腐蚀性第8步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "9",
+          "Text": "将小木棍放回玻璃片上，观察小木棍的变化，并填写实验报告；",
+          "AudioClip": "浓硫酸的腐蚀性第9步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "10",
+          "Text": "使用玻璃棒蘸取烧杯中的浓硫酸滴在布片上；",
+          "AudioClip": "浓硫酸的腐蚀性第10步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "11",
+          "Text": "观察布片的变化，并填写实验报告；",
+          "AudioClip": "浓硫酸的腐蚀性第11步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "12",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验；",
+          "AudioClip": "浓硫酸的腐蚀性第12步",
+          "Score": 40,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤二"
+        },
+        {
+          "isKeypoint": false,
+          "data": "步骤三"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：器材准备",
+          "AudioClip": "浓硫酸的腐蚀性大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "hint": "步骤二：涂抹浓硫酸，观察现象",
+          "AudioClip": "浓硫酸的腐蚀性大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "hint": "步骤三：整理器材",
+          "AudioClip": "浓硫酸的腐蚀性大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            10
+          ]
+        }
+      ],
+      "goal": "验证浓硫酸的腐蚀性。",
+      "theory": "浓硫酸具有强烈的腐蚀性，它能夺取纸张、木材、布料里的水分，生成黑色的碳。",
+      "equipment": "实验用具：烧杯(2)，玻璃棒(1)，纸片(1)，布片(1)，玻璃片(3)，小木棍(1)，橡胶手套(1)，干净抹布(1)，废物收集桶(1)，废液收集桶(1)；",
+      "OpeningSound": "浓硫酸的腐蚀性OpenSound"
+    },
+    {
+      "Task": "甲烷燃烧实验",
+      "hint": [
+        {
+          "Name": "1",
+          "Text": "点击高亮物品，自动组装设备，点燃酒精灯，使用酒精灯加热试管，制取出纯净的甲烷气体；",
+          "AudioClip": "甲烷燃烧实验第1步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "2",
+          "Text": "观察甲烷常温下的状态，然后点燃从导管放出的气体，观察甲烷点燃后的火焰颜色，并填写实验报告；",
+          "AudioClip": "甲烷燃烧实验第2步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "3",
+          "Text": "在火焰的上方罩上一个冷而干燥的烧杯，观察烧杯壁上的现象；",
+          "AudioClip": "甲烷燃烧实验第3步",
+          "Score": 15,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "4",
+          "Text": "迅速将烧杯正立过来，快速向烧杯中倒入少量澄清石灰水；",
+          "AudioClip": "甲烷燃烧实验第4步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "5",
+          "Text": "震荡烧杯，观察烧杯内澄清石灰水的变化，并填写实验报告；",
+          "AudioClip": "甲烷燃烧实验第5步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        },
+        {
+          "Name": "6",
+          "Text": "点击整理器材按钮，仪器自动整理，完成实验。",
+          "AudioClip": "甲烷燃烧实验第6步",
+          "Score": 10,
+          "RecommendedOperationTime": "00:02:00"
+        }
+      ],
+      "step": [
+        {
+          "isKeypoint": false,
+          "data": "步骤一"
+        }
+      ],
+      "bigStep": [
+        {
+          "hint": "步骤一：点燃甲烷",
+          "AudioClip": "甲烷燃烧实验大步骤1",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            0
+          ]
+        },
+        {
+          "hint": "步骤二：罩上烧杯，观察现象",
+          "AudioClip": "甲烷燃烧实验大步骤2",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            1
+          ]
+        },
+        {
+          "hint": "步骤三：倒入澄清石灰水",
+          "AudioClip": "甲烷燃烧实验大步骤3",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            2
+          ]
+        },
+        {
+          "hint": "步骤四：震荡烧杯，观察现象",
+          "AudioClip": "甲烷燃烧实验大步骤4",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            3
+          ]
+        },
+        {
+          "hint": "步骤五：整理器材",
+          "AudioClip": "甲烷燃烧实验大步骤5",
+          "recommendedOperationTime": "00:02:00",
+          "steps": [
+            3
+          ]
+        }
+      ],
+      "goal": "1.知道甲烷具有可燃性;2.了解甲烷是由碳、氢两种元素组成",
+      "theory": "甲烷具有可燃性，燃烧生成二氧化碳和水(CH₄ + 2O₂= CO₂ + 2H₂O)，由此可知甲烷是由碳元素和氢元素组成的",
+      "equipment": "实验用具：烧杯(1)、酒精灯(1)、火柴(1)、玻璃导管(2)、单孔橡胶塞(1)、橡胶管(1)、试管(1)、铁架台(1)、废液收集桶、废物收集桶。\n实验材料：无水醋酸钠和碱石灰的固体混合物、澄清石灰水。",
+      "OpeningSound": "甲烷燃烧实验OpenSound"
+    }
+  ]
+}

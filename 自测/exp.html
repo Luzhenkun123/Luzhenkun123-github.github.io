@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title id="title"></title>
+    <link rel="shortcut icon" href="./TemplateData/物理.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <div id="loding_logo">
+        <div id="loding_img"></div>
+      </div>
+      <canvas id="unity-canvas" width=1920 height=1080></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity_loding_first">
+          <div id="unity_loding_img"></div>
+        </div>
+        <div id="unity-logo"></div>
+        <div id="unity_loding_top">
+          <div id="unity_loding_f">正在进入  《<span id="loding_name"></span>》</div>
+          <div  id="unity_loding_s"> <span>已加载</span>   <span id="loding_number"></span></div>
+        </div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+        <div id="unity_loding_button">
+          <p>网页端首次加载较慢，后续将会提升加载速度，敬请等待……</p>
+        </div>
+      </div>
+
+      <div id="unity-warning"> </div>
+      
+    </div>
+    <script>
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var warningBanner = document.querySelector("#unity-warning");
+      var loding_number =  document.querySelector("#loding_number");
+      var loding_name = document.querySelector("#loding_name");
+      var title = document.querySelector("#title");
+      var loding_logo = document.querySelector("#loding_logo");
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      // var buildUrl = "Build";
+      // var loaderUrl = buildUrl + "/8.25.loader.js";
+      // var config = {
+      //   dataUrl: buildUrl + "/8.25.data.unityweb",
+      //   frameworkUrl: buildUrl + "/8.25.framework.js.unityweb",
+      //   codeUrl: buildUrl + "/8.25.wasm.unityweb",
+      //   streamingAssetsUrl: "StreamingAssets",
+      //   companyName: "DefaultCompany",
+      //   productName: "VirtualExperimentSimulatorWeb",
+      //   productVersion: "0.1",
+      //   showBanner: unityShowBanner,
+      // };
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/自测1.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/自测1.data.unityweb",
+        frameworkUrl: buildUrl + "/自测1.framework.js.unityweb",
+        codeUrl: buildUrl + "/自测1.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Angleyes",
+        productName: "VirtualExperimentSimulatorWeb",
+        productVersion: "0.1",
+        showBanner: unityShowBanner,
+      };
+
+      // By default Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
+        // canvas.style.width = "1920px";
+        // canvas.style.height = "1080px";
+        // fullscreenButton.onclick = () => {
+          //   unityInstance.SetFullscreen(1);
+          // };
+
+        canvas.style.width = "100vw";
+        canvas.style.height = "98vh";
+      }
+      function getQueryVariable (variable) {
+            let query = window.location.search.substring(1) 
+            let vars = query.split("&")
+            for (let i=0;i<vars.length;i++) {
+              for (let i=0;i<vars.length;i++) {
+                let pair = vars[i].split("=")
+                if(pair[0]== variable){
+                  return decodeURIComponent(pair[1]);
+                }
+              }
+            }
+            return (false)
+      }
+      loadingBar.style.display = "block";
+      getFloat = function(number, n) {
+        n = n ? parseInt(n) : 0;
+        if(n <= 0) {
+          return Math.round(number);
+        }
+        number = Math.round(number * Math.pow(10, n)) / Math.pow(10, n); //四舍五入
+        number = Number(number).toFixed(n); //补足位数
+        return number;
+      };
+      var script = document.createElement("script");
+        script.src = loaderUrl;
+        var myGameInstance = null;
+      script.onload = () => {
+          createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+          loding_number.innerHTML =getFloat(progress*100,2) + "%";
+
+        }).then((unityInstance) => {
+          myGameInstance = unityInstance;
+          loadingBar.style.display = "none";
+          loding_logo.style.display = "none";
+          myGameInstance.SendMessage('Manager','StartTask',`${getQueryVariable('title')}~0~0`)
+          
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      loding_name.innerHTML = getQueryVariable('title');
+      title.innerHTML = getQueryVariable('title');
+      function TaskReturn(time){
+          window.history.go(-1)
+      }
+      document.body.appendChild(script);
+      function TaskStart(t) {
+          //alert("时间："+t);
+          console.log("开始时间："+ t);
+          window.parent.postMessage({startTime:t} ,"*")
+      }
+      function TaskStop(s, t,Score,Step_Score,is_finish_exper) {
+          //alert(s +"   "+ t);
+          console.log("实验名称："+s +"实验用时："+ t +"总得分："+Score+"每个步骤得分：" +Step_Score+"实验是否完成："+is_finish_exper);
+          window.parent.postMessage({endTime:t,name:s,Score:Score,Step_Score:Step_Score,is_finish_exper:is_finish_exper} ,"*")
+      }
+      var key=""
+      document.onkeydown=function(ev)
+      {
+        key+=ev.key;
+        key=key.toUpperCase();
+        if(key.indexOf("DEVELOP")!=-1)
+          myGameInstance.SendMessage('Manager','开发者');
+      }
+    </script>
+  </body>
+</html>
