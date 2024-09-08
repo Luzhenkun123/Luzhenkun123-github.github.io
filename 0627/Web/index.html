@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | HaichunxuanTower_Visit</title>
+    <title>Unity WebGL Player | ThridPersonWebgl</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=600 height=960></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,11 +20,10 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">HaichunxuanTower_Visit</div>
+        <div id="unity-build-title">ThridPersonWebgl</div>
       </div>
     </div>
     <script>
-
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
       var loadingBar = document.querySelector("#unity-loading-bar");
@@ -57,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Test.loader.js";
+      var loaderUrl = buildUrl + "/Web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Test.data.unityweb",
-        frameworkUrl: buildUrl + "/Test.framework.js.unityweb",
-        codeUrl: buildUrl + "/Test.wasm.unityweb",
+        dataUrl: buildUrl + "/Web.data.unityweb",
+        frameworkUrl: buildUrl + "/Web.framework.js.unityweb",
+        codeUrl: buildUrl + "/Web.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "HaichunxuanTower_Visit",
+        productName: "ThridPersonWebgl",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
@@ -89,34 +88,47 @@
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
-
-
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "600px";
+        canvas.style.height = "960px";
       }
 
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
       script.src = loaderUrl;
+
+      var unityIns=null;
+      var fullScreenMode=0;
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
-              }).then((unityInstance) => {
-                loadingBar.style.display = "none";
-                fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
-                };
-              }).catch((message) => {
-                alert(message);
-              });
-            };
-
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          unityIns=unityInstance;
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      function SetFullSreen()
+      {
+          if(unityIns==null)return
+            if(fullScreenMode==0)
+            {
+              unityIns.SetFullscreen(1);
+              fullScreenMode=1;
+            }
+            else{
+              unityIns.SetFullscreen(0);
+              fullScreenMode=0;
+            }
+      }
       document.body.appendChild(script);
-
     </script>
   </body>
 </html>
